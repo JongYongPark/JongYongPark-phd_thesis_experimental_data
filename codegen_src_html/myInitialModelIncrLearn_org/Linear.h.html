@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="generator" content="Source Insight Version 4.00.0084 Built on 2017-02-26">
+<meta charset='UTF-8' />
+<style type='text/css'><!--
+TD {background-color: #C0C0C0; font-family: 'Verdana', 'Arial', 'Helvetica', Sans-Serif; font-size: 70%; }
+.blurb {font-family: 'Verdana', 'Arial', 'Helvetica', Sans-Serif; font-size: 70%; }
+.filename {font-family: 'Verdana', 'Arial', 'Helvetica', Sans-Serif; font-size: 120%; font-weight: bold; }
+.dirname {font-family: 'Verdana', 'Arial', 'Helvetica', Sans-Serif; font-size: 100%; font-weight: bold; margin-top: 2.5em;}
+--></style>
+<title>myInitialModelIncrLearn_org\Linear.h</title>
+<LINK REL=StyleSheet HREF="../C_Cpp_Source_File.css" TYPE='text/css' MEDIA=screen>
+</head>
+<body bgcolor=#000000>
+<table bgcolor='#c0c0c0' width='100%'>
+<tr><td><p class='filename'><b>myInitialModelIncrLearn_org\Linear.h</b></p></td>
+<td align='right'>
+Tue Jun 14 23:24:05 2022
+</td></tr>
+<tr><td><a href='../Contents.html'>Contents</a></td></tr>
+</table>
+<pre>
+<span class='Line_Number'>    1: </span><span class='Comment_Multi_Line'>/* 
+</span><span class='Line_Number'>    2: </span><span class='Comment_Multi_Line'> * Academic License - for use in teaching, academic research, and meeting 
+</span><span class='Line_Number'>    3: </span><span class='Comment_Multi_Line'> * course requirements at degree granting institutions only.  Not for 
+</span><span class='Line_Number'>    4: </span><span class='Comment_Multi_Line'> * government, commercial, or other organizational use. 
+</span><span class='Line_Number'>    5: </span><span class='Comment_Multi_Line'> * 
+</span><span class='Line_Number'>    6: </span><span class='Comment_Multi_Line'> * Linear.h 
+</span><span class='Line_Number'>    7: </span><span class='Comment_Multi_Line'> * 
+</span><span class='Line_Number'>    8: </span><span class='Comment_Multi_Line'> * Code generation for function 'Linear' 
+</span><span class='Line_Number'>    9: </span><span class='Comment_Multi_Line'> * 
+</span><span class='Line_Number'>   10: </span><span class='Comment_Multi_Line'> */</span> 
+<span class='Line_Number'>   11: </span> 
+<span class='Line_Number'>   12: </span><span class='Directive'>#ifndef</span> <a href="Linear.h.html#LN12"><span class='Ref_to_Const'>LINEAR_H</span></a> 
+<a name="LN12"></a><span class='Line_Number'>   13: </span><span class='Keyword'>#define</span> <span class='Declare_Constant'>LINEAR_H</span> 
+<span class='Line_Number'>   14: </span> 
+<span class='Line_Number'>   15: </span><span class='Comment_Multi_Line'>/* Include files */</span> 
+<span class='Line_Number'>   16: </span><span class='Keyword'>#include</span> <span class='String'>"rtwtypes.h"</span> 
+<span class='Line_Number'>   17: </span><span class='Keyword'>#include</span> <span class='String'>&LT;stddef.h&GT;</span> 
+<span class='Line_Number'>   18: </span><span class='Keyword'>#include</span> <span class='String'>&LT;stdlib.h&GT;</span> 
+<span class='Line_Number'>   19: </span> 
+<span class='Line_Number'>   20: </span><span class='Directive'>#ifdef</span> __cplusplus 
+<span class='Line_Number'>   21: </span><span class='Keyword'>extern</span> <span class='String'>"C"</span> <span class='Delimiter'>{</span> 
+<span class='Line_Number'>   22: </span><span class='Directive'>#endif</span> 
+<span class='Line_Number'>   23: </span> 
+<span class='Line_Number'>   24: </span><span class='Comment_Multi_Line'>/* Function Declarations */</span> 
+<a name="LN24"></a><span class='Line_Number'>   25: </span><span class='Keyword'>void</span> <span class='Declare_Prototype'>Linear_score</span><span class='Parentheses'>(</span><span class='Keyword'>const</span> <span class='Keyword'>double</span> <span class='Declare_Parameter'>this_Impl_Beta</span><span class='Delimiter'>[</span><span class='Number'>20</span><span class='Delimiter'>],</span> <span class='Keyword'>double</span> <span class='Declare_Parameter'>this_Impl_Bias</span><span class='Delimiter'>,</span> 
+<a name="LN25"></a><span class='Line_Number'>   26: </span>                  <span class='Keyword'>const</span> <span class='Keyword'>double</span> <span class='Declare_Parameter'>X</span><span class='Delimiter'>[</span><span class='Number'>100</span><span class='Delimiter'>],</span> <span class='Keyword'>const</span> <span class='Keyword'>bool</span> <span class='Declare_Parameter'>indsToExclude</span><span class='Delimiter'>[</span><span class='Number'>5</span><span class='Delimiter'>],</span> 
+<a name="LN26"></a><span class='Line_Number'>   27: </span>                  <span class='Keyword'>double</span> <span class='Declare_Parameter'>s</span><span class='Delimiter'>[</span><span class='Number'>5</span><span class='Delimiter'>]</span><span class='Parentheses'>)</span><span class='Delimiter'>;</span> 
+<span class='Line_Number'>   28: </span> 
+<span class='Line_Number'>   29: </span><span class='Directive'>#ifdef</span> __cplusplus 
+<span class='Line_Number'>   30: </span><span class='Delimiter'>}</span> 
+<span class='Line_Number'>   31: </span><span class='Directive'>#endif</span> 
+<span class='Line_Number'>   32: </span> 
+<span class='Line_Number'>   33: </span><span class='Directive'>#endif</span> 
+<span class='Line_Number'>   34: </span><span class='Comment_Multi_Line'>/* End of code generation (Linear.h) */</span> 
+</pre>
+<table bgcolor='#c0c0c0' width='100%'><tr><td><a href='../Contents.html'>Contents</a></td></tr>
+</table><hr><p class='blurb' align='center'><a href='http://www.sourceinsight.com'>HTML Created by Source Insight Version 4.00.0084 Built on 2017-02-26</a></p>
+</body></html>

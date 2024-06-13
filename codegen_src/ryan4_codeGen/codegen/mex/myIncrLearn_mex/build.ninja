@@ -1,0 +1,75 @@
+# CompilerName=msvc160
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = C:\Program Files\MATLAB\R2022a
+startdir = C:\nobackup\_phd_work\_battery_soh\_matlab_battery\_mywork\_latest\ryan4_codeGen
+
+# Toolchain information
+cc = cl
+cxx = cl
+linker = link
+linkerxx = link
+
+cflags =  /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=myIncrLearn_mex  
+
+cxxflags =   /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=myIncrLearn_mex  
+
+ldflags =  /nologo /manifest   /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  /out:"myIncrLearn_mex.mexw64" libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib  /export:mexFunction /export:mexfilerequiredapiversion /export:emlrtMexFcnProperties /export:myInitialModelIncrLearn /export:myUpdateMetricsIncrLearn /export:myFitIncrLearn /export:myPredictIncrLearn /export:myIncrLearn_mex_initialize /export:myIncrLearn_mex_terminate /export:myIncrLearn_mex_atexit /export:emxInit_cell_wrap_1_4 /export:emxInit_cell_wrap_1_2 /export:emxFree_cell_wrap_1_2 /export:emxEnsureCapacity_cell_wrap_11 /export:emxTrim_cell_wrap_1_2 /export:emxExpand_cell_wrap_1_2 /export:emxFree_cell_wrap_1_4 /export:emxEnsureCapacity_cell_wrap_1 /export:emxTrim_cell_wrap_1_4 /export:emxExpand_cell_wrap_1_4 /export:emxEnsureCapacity_int32_T /export:emxCopyStruct_cell_wrap_1 /export:emxCopy_char_T /export:emxEnsureCapacity_uint32_T /export:emxEnsureCapacity_cell_wrap_12 /export:emxTrim_cell_wrap_1 /export:emxExpand_cell_wrap_1 /export:emxFreeMatrix_cell_wrap_11 /export:emxInitMatrix_cell_wrap_11 /export:emxFree_int32_T /export:emxInit_int32_T /export:emxFreeStruct_categorical1 /export:emxFree_cell_wrap_1 /export:emxFree_uint32_T /export:emxInitStruct_categorical1 /export:emxInit_uint32_T /export:emxInit_cell_wrap_1 /export:emxFree_real_T /export:emxInit_real_T /export:emxEnsureCapacity_char_T /export:emxEnsureCapacity_real_T /export:c_emxFreeStruct_incrementalClas /export:emxFreeStruct_categorical /export:emxFreeMatrix_cell_wrap_1 /export:emxFreeStruct_cell_wrap_1 /export:emxFree_char_T /export:c_emxInitStruct_incrementalClas /export:emxInitStruct_categorical /export:emxInitMatrix_cell_wrap_1 /export:emxInitStruct_cell_wrap_1 /export:emxInit_char_T
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in /Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in /Fo$out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir\myIncrLearn_mex_data.obj : cc $root\myIncrLearn_mex_data.c
+build $builddir\rt_nonfinite.obj : cc $root\rt_nonfinite.c
+build $builddir\myIncrLearn_mex_initialize.obj : cc $root\myIncrLearn_mex_initialize.c
+build $builddir\myIncrLearn_mex_terminate.obj : cc $root\myIncrLearn_mex_terminate.c
+build $builddir\myInitialModelIncrLearn.obj : cc $root\myInitialModelIncrLearn.c
+build $builddir\validateattributes.obj : cc $root\validateattributes.c
+build $builddir\ClassificationModel.obj : cc $root\ClassificationModel.c
+build $builddir\cellstr_ismember.obj : cc $root\cellstr_ismember.c
+build $builddir\find.obj : cc $root\find.c
+build $builddir\indexShapeCheck.obj : cc $root\indexShapeCheck.c
+build $builddir\LinearImpl.obj : cc $root\LinearImpl.c
+build $builddir\cellstr_unique.obj : cc $root\cellstr_unique.c
+build $builddir\cellstr_sort.obj : cc $root\cellstr_sort.c
+build $builddir\any.obj : cc $root\any.c
+build $builddir\getCategoryNames.obj : cc $root\getCategoryNames.c
+build $builddir\myPredictIncrLearn.obj : cc $root\myPredictIncrLearn.c
+build $builddir\_coder_myIncrLearn_mex_api.obj : cc $root\interface\_coder_myIncrLearn_mex_api.c
+build $builddir\_coder_myIncrLearn_mex_mex.obj : cc $root\interface\_coder_myIncrLearn_mex_mex.c
+build $builddir\eml_int_forloop_overflow_check.obj : cc $root\eml_int_forloop_overflow_check.c
+build $builddir\introsort.obj : cc $root\introsort.c
+build $builddir\strcmp.obj : cc $root\strcmp.c
+build $builddir\sumMatrixIncludeNaN.obj : cc $root\sumMatrixIncludeNaN.c
+build $builddir\myUpdateMetricsIncrLearn.obj : cc $root\myUpdateMetricsIncrLearn.c
+build $builddir\Linear.obj : cc $root\Linear.c
+build $builddir\incrementalClassificationLinear.obj : cc $root\incrementalClassificationLinear.c
+build $builddir\categorical.obj : cc $root\categorical.c
+build $builddir\insertionsort.obj : cc $root\insertionsort.c
+build $builddir\heapsort.obj : cc $root\heapsort.c
+build $builddir\circshift.obj : cc $root\circshift.c
+build $builddir\myFitIncrLearn.obj : cc $root\myFitIncrLearn.c
+build $builddir\Learner.obj : cc $root\Learner.c
+build $builddir\myIncrLearn_mex_emxutil.obj : cc $root\myIncrLearn_mex_emxutil.c
+build $builddir\_coder_myIncrLearn_mex_info.obj : cc $root\interface\_coder_myIncrLearn_mex_info.c
+build $builddir\c_mexapi_version.obj : cc $matlabdir\extern\version\c_mexapi_version.c
+
+# Link
+build $root\myIncrLearn_mex.mexw64 : link $builddir\myIncrLearn_mex_data.obj $builddir\rt_nonfinite.obj $builddir\myIncrLearn_mex_initialize.obj $builddir\myIncrLearn_mex_terminate.obj $builddir\myInitialModelIncrLearn.obj $builddir\validateattributes.obj $builddir\ClassificationModel.obj $builddir\cellstr_ismember.obj $builddir\find.obj $builddir\indexShapeCheck.obj $builddir\LinearImpl.obj $builddir\cellstr_unique.obj $builddir\cellstr_sort.obj $builddir\any.obj $builddir\getCategoryNames.obj $builddir\myPredictIncrLearn.obj $builddir\_coder_myIncrLearn_mex_api.obj $builddir\_coder_myIncrLearn_mex_mex.obj $builddir\eml_int_forloop_overflow_check.obj $builddir\introsort.obj $builddir\strcmp.obj $builddir\sumMatrixIncludeNaN.obj $builddir\myUpdateMetricsIncrLearn.obj $builddir\Linear.obj $builddir\incrementalClassificationLinear.obj $builddir\categorical.obj $builddir\insertionsort.obj $builddir\heapsort.obj $builddir\circshift.obj $builddir\myFitIncrLearn.obj $builddir\Learner.obj $builddir\myIncrLearn_mex_emxutil.obj $builddir\_coder_myIncrLearn_mex_info.obj $builddir\c_mexapi_version.obj 

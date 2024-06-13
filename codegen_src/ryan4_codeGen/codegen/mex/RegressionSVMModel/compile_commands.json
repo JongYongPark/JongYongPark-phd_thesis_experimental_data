@@ -1,0 +1,98 @@
+[
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   RegressionSVMModel_data.c /Fobuild\\win64\\RegressionSVMModel_data.obj",
+    "file": "RegressionSVMModel_data.c",
+    "output": "build/win64/RegressionSVMModel_data.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   RegressionSVMModel_initialize.c /Fobuild\\win64\\RegressionSVMModel_initialize.obj",
+    "file": "RegressionSVMModel_initialize.c",
+    "output": "build/win64/RegressionSVMModel_initialize.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   RegressionSVMModel_terminate.c /Fobuild\\win64\\RegressionSVMModel_terminate.obj",
+    "file": "RegressionSVMModel_terminate.c",
+    "output": "build/win64/RegressionSVMModel_terminate.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   update.c /Fobuild\\win64\\update.obj",
+    "file": "update.c",
+    "output": "build/win64/update.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   predict.c /Fobuild\\win64\\predict.obj",
+    "file": "predict.c",
+    "output": "build/win64/predict.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   Linear.c /Fobuild\\win64\\Linear.obj",
+    "file": "Linear.c",
+    "output": "build/win64/Linear.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   mtimes.c /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.c",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   Poly.c /Fobuild\\win64\\Poly.obj",
+    "file": "Poly.c",
+    "output": "build/win64/Poly.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   Gaussian.c /Fobuild\\win64\\Gaussian.obj",
+    "file": "Gaussian.c",
+    "output": "build/win64/Gaussian.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   initialize.c /Fobuild\\win64\\initialize.obj",
+    "file": "initialize.c",
+    "output": "build/win64/initialize.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   interface\\_coder_RegressionSVMModel_api.c /Fobuild\\win64\\_coder_RegressionSVMModel_api.obj",
+    "file": "interface/_coder_RegressionSVMModel_api.c",
+    "output": "build/win64/_coder_RegressionSVMModel_api.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   interface\\_coder_RegressionSVMModel_mex.c /Fobuild\\win64\\_coder_RegressionSVMModel_mex.obj",
+    "file": "interface/_coder_RegressionSVMModel_mex.c",
+    "output": "build/win64/_coder_RegressionSVMModel_mex.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   CompactRegressionSVM.c /Fobuild\\win64\\CompactRegressionSVM.obj",
+    "file": "CompactRegressionSVM.c",
+    "output": "build/win64/CompactRegressionSVM.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   interface\\_coder_RegressionSVMModel_info.c /Fobuild\\win64\\_coder_RegressionSVMModel_info.obj",
+    "file": "interface/_coder_RegressionSVMModel_info.c",
+    "output": "build/win64/_coder_RegressionSVMModel_info.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\RegressionSVMModel",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=RegressionSVMModel   \"C:\\Program Files\\MATLAB\\R2022a\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2022a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

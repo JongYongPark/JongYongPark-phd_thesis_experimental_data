@@ -1,0 +1,206 @@
+[
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myIncrLearn_mex_data.c /Fobuild\\win64\\myIncrLearn_mex_data.obj",
+    "file": "myIncrLearn_mex_data.c",
+    "output": "build/win64/myIncrLearn_mex_data.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myIncrLearn_mex_initialize.c /Fobuild\\win64\\myIncrLearn_mex_initialize.obj",
+    "file": "myIncrLearn_mex_initialize.c",
+    "output": "build/win64/myIncrLearn_mex_initialize.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myIncrLearn_mex_terminate.c /Fobuild\\win64\\myIncrLearn_mex_terminate.obj",
+    "file": "myIncrLearn_mex_terminate.c",
+    "output": "build/win64/myIncrLearn_mex_terminate.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myInitialModelIncrLearn.c /Fobuild\\win64\\myInitialModelIncrLearn.obj",
+    "file": "myInitialModelIncrLearn.c",
+    "output": "build/win64/myInitialModelIncrLearn.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   validateattributes.c /Fobuild\\win64\\validateattributes.obj",
+    "file": "validateattributes.c",
+    "output": "build/win64/validateattributes.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   ClassificationModel.c /Fobuild\\win64\\ClassificationModel.obj",
+    "file": "ClassificationModel.c",
+    "output": "build/win64/ClassificationModel.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   cellstr_ismember.c /Fobuild\\win64\\cellstr_ismember.obj",
+    "file": "cellstr_ismember.c",
+    "output": "build/win64/cellstr_ismember.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   find.c /Fobuild\\win64\\find.obj",
+    "file": "find.c",
+    "output": "build/win64/find.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   indexShapeCheck.c /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.c",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   LinearImpl.c /Fobuild\\win64\\LinearImpl.obj",
+    "file": "LinearImpl.c",
+    "output": "build/win64/LinearImpl.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   cellstr_unique.c /Fobuild\\win64\\cellstr_unique.obj",
+    "file": "cellstr_unique.c",
+    "output": "build/win64/cellstr_unique.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   cellstr_sort.c /Fobuild\\win64\\cellstr_sort.obj",
+    "file": "cellstr_sort.c",
+    "output": "build/win64/cellstr_sort.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   any.c /Fobuild\\win64\\any.obj",
+    "file": "any.c",
+    "output": "build/win64/any.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   getCategoryNames.c /Fobuild\\win64\\getCategoryNames.obj",
+    "file": "getCategoryNames.c",
+    "output": "build/win64/getCategoryNames.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myPredictIncrLearn.c /Fobuild\\win64\\myPredictIncrLearn.obj",
+    "file": "myPredictIncrLearn.c",
+    "output": "build/win64/myPredictIncrLearn.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   interface\\_coder_myIncrLearn_mex_api.c /Fobuild\\win64\\_coder_myIncrLearn_mex_api.obj",
+    "file": "interface/_coder_myIncrLearn_mex_api.c",
+    "output": "build/win64/_coder_myIncrLearn_mex_api.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   interface\\_coder_myIncrLearn_mex_mex.c /Fobuild\\win64\\_coder_myIncrLearn_mex_mex.obj",
+    "file": "interface/_coder_myIncrLearn_mex_mex.c",
+    "output": "build/win64/_coder_myIncrLearn_mex_mex.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   eml_int_forloop_overflow_check.c /Fobuild\\win64\\eml_int_forloop_overflow_check.obj",
+    "file": "eml_int_forloop_overflow_check.c",
+    "output": "build/win64/eml_int_forloop_overflow_check.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   introsort.c /Fobuild\\win64\\introsort.obj",
+    "file": "introsort.c",
+    "output": "build/win64/introsort.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   strcmp.c /Fobuild\\win64\\strcmp.obj",
+    "file": "strcmp.c",
+    "output": "build/win64/strcmp.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   sumMatrixIncludeNaN.c /Fobuild\\win64\\sumMatrixIncludeNaN.obj",
+    "file": "sumMatrixIncludeNaN.c",
+    "output": "build/win64/sumMatrixIncludeNaN.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myUpdateMetricsIncrLearn.c /Fobuild\\win64\\myUpdateMetricsIncrLearn.obj",
+    "file": "myUpdateMetricsIncrLearn.c",
+    "output": "build/win64/myUpdateMetricsIncrLearn.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   Linear.c /Fobuild\\win64\\Linear.obj",
+    "file": "Linear.c",
+    "output": "build/win64/Linear.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   incrementalClassificationLinear.c /Fobuild\\win64\\incrementalClassificationLinear.obj",
+    "file": "incrementalClassificationLinear.c",
+    "output": "build/win64/incrementalClassificationLinear.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   categorical.c /Fobuild\\win64\\categorical.obj",
+    "file": "categorical.c",
+    "output": "build/win64/categorical.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   insertionsort.c /Fobuild\\win64\\insertionsort.obj",
+    "file": "insertionsort.c",
+    "output": "build/win64/insertionsort.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   heapsort.c /Fobuild\\win64\\heapsort.obj",
+    "file": "heapsort.c",
+    "output": "build/win64/heapsort.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   circshift.c /Fobuild\\win64\\circshift.obj",
+    "file": "circshift.c",
+    "output": "build/win64/circshift.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myFitIncrLearn.c /Fobuild\\win64\\myFitIncrLearn.obj",
+    "file": "myFitIncrLearn.c",
+    "output": "build/win64/myFitIncrLearn.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   Learner.c /Fobuild\\win64\\Learner.obj",
+    "file": "Learner.c",
+    "output": "build/win64/Learner.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   myIncrLearn_mex_emxutil.c /Fobuild\\win64\\myIncrLearn_mex_emxutil.obj",
+    "file": "myIncrLearn_mex_emxutil.c",
+    "output": "build/win64/myIncrLearn_mex_emxutil.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   interface\\_coder_myIncrLearn_mex_info.c /Fobuild\\win64\\_coder_myIncrLearn_mex_info.obj",
+    "file": "interface/_coder_myIncrLearn_mex_info.c",
+    "output": "build/win64/_coder_myIncrLearn_mex_info.obj"
+  },
+  {
+    "directory": "C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\\codegen\\mex\\myIncrLearn_mex",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\nobackup\\_phd_work\\_battery_soh\\_matlab_battery\\_mywork\\_latest\\ryan4_codeGen\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022a\\extern\\include\" /I \".\" -DMODEL=myIncrLearn_mex   \"C:\\Program Files\\MATLAB\\R2022a\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2022a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]
