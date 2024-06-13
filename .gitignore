@@ -2,3 +2,4 @@
 *.mexw64
 matlab_clode/*.mat
 matlab_clode/*.mexw64
+!dataset/*.mat
