@@ -1,0 +1,519 @@
+hello world!
+I am running on Raspberry Pi !!!!
+
+
+ idxCount = 250 
+ charge/discharge patten changes at 210 cycle 
+
+ idx, Predict, Observed, AE, SE, APE(%), PredictNorm, ObservedNorm 
+    4, [701.1526, 312], [0.000000, 0.000000, 0.000000], 0.598421, 0.265810 
+    4, [637.6967, 312], [0.000000, 0.000000, 0.000000], 0.544185, 0.265810 
+    4, [608.5325, 312], [0.000000, 0.000000, 0.000000], 0.519259, 0.265810 
+    4, [584.5926, 312], [0.000000, 0.000000, 0.000000], 0.498797, 0.265810 
+    4, [556.0167, 312], [244.016676, 59544.138375, 78.210473], 0.474373, 0.265810 
+    9, [700.5515, 307], [0.000000, 0.000000, 0.000000], 0.597907, 0.261540 
+    9, [635.6443, 307], [0.000000, 0.000000, 0.000000], 0.542431, 0.261540 
+    9, [607.9881, 307], [0.000000, 0.000000, 0.000000], 0.518793, 0.261540 
+    9, [584.0738, 307], [0.000000, 0.000000, 0.000000], 0.498354, 0.261540 
+    9, [555.3220, 307], [248.322019, 61663.825025, 80.886651], 0.473780, 0.261540 
+   14, [698.5455, 302], [0.000000, 0.000000, 0.000000], 0.596193, 0.257260 
+   14, [629.4795, 302], [0.000000, 0.000000, 0.000000], 0.537162, 0.257260 
+   14, [608.7860, 302], [0.000000, 0.000000, 0.000000], 0.519475, 0.257260 
+   14, [584.7074, 302], [0.000000, 0.000000, 0.000000], 0.498895, 0.257260 
+   14, [555.4128, 302], [253.412800, 64218.047380, 83.911523], 0.473857, 0.257260 
+   19, [701.2609, 297], [0.000000, 0.000000, 0.000000], 0.598514, 0.252990 
+   19, [636.9904, 297], [0.000000, 0.000000, 0.000000], 0.543582, 0.252990 
+   19, [608.1195, 297], [0.000000, 0.000000, 0.000000], 0.518906, 0.252990 
+   19, [584.0953, 297], [0.000000, 0.000000, 0.000000], 0.498372, 0.252990 
+   19, [555.1702, 297], [258.170162, 66651.832422, 86.925980], 0.473650, 0.252990 
+   24, [698.6686, 292], [0.000000, 0.000000, 0.000000], 0.596298, 0.248720 
+   24, [624.8309, 292], [0.000000, 0.000000, 0.000000], 0.533189, 0.248720 
+   24, [614.2898, 292], [0.000000, 0.000000, 0.000000], 0.524179, 0.248720 
+   24, [589.9911, 292], [0.000000, 0.000000, 0.000000], 0.503411, 0.248720 
+   24, [560.5785, 292], [268.578485, 72134.402419, 91.978933], 0.478272, 0.248720 
+   29, [717.7101, 287], [0.000000, 0.000000, 0.000000], 0.612573, 0.244440 
+   29, [663.0393, 287], [0.000000, 0.000000, 0.000000], 0.565846, 0.244440 
+   29, [616.0534, 287], [0.000000, 0.000000, 0.000000], 0.525687, 0.244440 
+   29, [593.1971, 287], [0.000000, 0.000000, 0.000000], 0.506151, 0.244440 
+   29, [566.4663, 287], [279.466300, 78101.412919, 97.375017], 0.483305, 0.244440 
+   34, [700.7858, 282], [0.000000, 0.000000, 0.000000], 0.598108, 0.240170 
+   34, [635.6901, 282], [0.000000, 0.000000, 0.000000], 0.542470, 0.240170 
+   34, [606.5603, 282], [0.000000, 0.000000, 0.000000], 0.517573, 0.240170 
+   34, [582.2973, 282], [0.000000, 0.000000, 0.000000], 0.496835, 0.240170 
+   34, [552.9048, 282], [270.904811, 73389.416524, 96.065536], 0.471714, 0.240170 
+   39, [700.5538, 277], [0.000000, 0.000000, 0.000000], 0.597909, 0.235900 
+   39, [634.5619, 277], [0.000000, 0.000000, 0.000000], 0.541506, 0.235900 
+   39, [605.7061, 277], [0.000000, 0.000000, 0.000000], 0.516843, 0.235900 
+   39, [581.3683, 277], [0.000000, 0.000000, 0.000000], 0.496041, 0.235900 
+   39, [551.8643, 277], [274.864255, 75550.358625, 99.228973], 0.470824, 0.235900 
+   44, [700.3187, 272], [0.000000, 0.000000, 0.000000], 0.597708, 0.231620 
+   44, [633.0974, 272], [0.000000, 0.000000, 0.000000], 0.540254, 0.231620 
+   44, [606.1796, 272], [0.000000, 0.000000, 0.000000], 0.517247, 0.231620 
+   44, [581.5888, 272], [0.000000, 0.000000, 0.000000], 0.496230, 0.231620 
+   44, [551.6569, 272], [279.656929, 78207.997764, 102.815047], 0.470647, 0.231620 
+   49, [699.3587, 267], [0.000000, 0.000000, 0.000000], 0.596888, 0.227350 
+   49, [631.2583, 267], [0.000000, 0.000000, 0.000000], 0.538682, 0.227350 
+   49, [606.8075, 267], [0.000000, 0.000000, 0.000000], 0.517784, 0.227350 
+   49, [581.9885, 267], [0.000000, 0.000000, 0.000000], 0.496571, 0.227350 
+   49, [551.4709, 267], [284.470881, 80923.682283, 106.543401], 0.470488, 0.227350 
+   54, [705.0422, 262], [0.000000, 0.000000, 0.000000], 0.601745, 0.223080 
+   54, [637.3796, 262], [0.000000, 0.000000, 0.000000], 0.543914, 0.223080 
+   54, [612.1924, 262], [0.000000, 0.000000, 0.000000], 0.522387, 0.223080 
+   54, [587.6467, 262], [0.000000, 0.000000, 0.000000], 0.501407, 0.223080 
+   54, [558.0213, 262], [296.021294, 87628.606567, 112.985227], 0.476087, 0.223080 
+   59, [712.9449, 257], [0.000000, 0.000000, 0.000000], 0.608500, 0.218800 
+   59, [649.6884, 257], [0.000000, 0.000000, 0.000000], 0.554435, 0.218800 
+   59, [607.5625, 257], [0.000000, 0.000000, 0.000000], 0.518430, 0.218800 
+   59, [583.1190, 257], [0.000000, 0.000000, 0.000000], 0.497538, 0.218800 
+   59, [554.1068, 257], [297.106770, 88272.432728, 115.605747], 0.472741, 0.218800 
+   64, [699.7311, 252], [0.000000, 0.000000, 0.000000], 0.597206, 0.214530 
+   64, [632.6726, 252], [0.000000, 0.000000, 0.000000], 0.539891, 0.214530 
+   64, [604.3844, 252], [0.000000, 0.000000, 0.000000], 0.515713, 0.214530 
+   64, [579.3335, 252], [0.000000, 0.000000, 0.000000], 0.494302, 0.214530 
+   64, [548.5483, 252], [296.548254, 87940.866801, 117.677878], 0.467990, 0.214530 
+   69, [701.6746, 247], [0.000000, 0.000000, 0.000000], 0.598867, 0.210260 
+   69, [633.7907, 247], [0.000000, 0.000000, 0.000000], 0.540847, 0.210260 
+   69, [604.0788, 247], [0.000000, 0.000000, 0.000000], 0.515452, 0.210260 
+   69, [578.9896, 247], [0.000000, 0.000000, 0.000000], 0.494008, 0.210260 
+   69, [548.1633, 247], [301.163301, 90699.334142, 121.928462], 0.467661, 0.210260 
+   74, [698.5352, 242], [0.000000, 0.000000, 0.000000], 0.596184, 0.205980 
+   74, [631.4065, 242], [0.000000, 0.000000, 0.000000], 0.538809, 0.205980 
+   74, [603.6439, 242], [0.000000, 0.000000, 0.000000], 0.515080, 0.205980 
+   74, [578.0946, 242], [0.000000, 0.000000, 0.000000], 0.493243, 0.205980 
+   74, [546.5283, 242], [304.528280, 92737.473180, 125.838132], 0.466263, 0.205980 
+   79, [701.3203, 237], [0.000000, 0.000000, 0.000000], 0.598564, 0.201710 
+   79, [631.9664, 237], [0.000000, 0.000000, 0.000000], 0.539288, 0.201710 
+   79, [602.8533, 237], [0.000000, 0.000000, 0.000000], 0.514405, 0.201710 
+   79, [577.3854, 237], [0.000000, 0.000000, 0.000000], 0.492637, 0.201710 
+   79, [545.7496, 237], [308.749574, 95326.299450, 130.274082], 0.465598, 0.201710 
+   84, [703.0412, 232], [0.000000, 0.000000, 0.000000], 0.600035, 0.197440 
+   84, [634.4070, 232], [0.000000, 0.000000, 0.000000], 0.541373, 0.197440 
+   84, [602.7930, 232], [0.000000, 0.000000, 0.000000], 0.514353, 0.197440 
+   84, [577.2574, 232], [0.000000, 0.000000, 0.000000], 0.492528, 0.197440 
+   84, [545.9023, 232], [313.902276, 98534.638740, 135.302705], 0.465728, 0.197440 
+   89, [700.6215, 227], [0.000000, 0.000000, 0.000000], 0.597967, 0.193160 
+   89, [634.4627, 227], [0.000000, 0.000000, 0.000000], 0.541421, 0.193160 
+   89, [602.4403, 227], [0.000000, 0.000000, 0.000000], 0.514052, 0.193160 
+   89, [576.5982, 227], [0.000000, 0.000000, 0.000000], 0.491964, 0.193160 
+   89, [544.4149, 227], [317.414929, 100752.236935, 139.830365], 0.464457, 0.193160 
+   94, [701.7762, 222], [0.000000, 0.000000, 0.000000], 0.598954, 0.188890 
+   94, [636.1100, 222], [0.000000, 0.000000, 0.000000], 0.542829, 0.188890 
+   94, [601.6817, 222], [0.000000, 0.000000, 0.000000], 0.513403, 0.188890 
+   94, [575.6013, 222], [0.000000, 0.000000, 0.000000], 0.491112, 0.188890 
+   94, [543.1539, 222], [321.153852, 103139.796617, 144.663897], 0.463379, 0.188890 
+   99, [700.3422, 217], [0.000000, 0.000000, 0.000000], 0.597728, 0.184620 
+   99, [630.9466, 217], [0.000000, 0.000000, 0.000000], 0.538416, 0.184620 
+   99, [600.3400, 217], [0.000000, 0.000000, 0.000000], 0.512256, 0.184620 
+   99, [573.9696, 217], [0.000000, 0.000000, 0.000000], 0.489718, 0.184620 
+   99, [540.8506, 217], [323.850621, 104879.224724, 149.239918], 0.461411, 0.184620 
+  104, [698.6351, 212], [0.000000, 0.000000, 0.000000], 0.596269, 0.180340 
+  104, [628.9844, 212], [0.000000, 0.000000, 0.000000], 0.536739, 0.180340 
+  104, [599.4962, 212], [0.000000, 0.000000, 0.000000], 0.511535, 0.180340 
+  104, [572.7747, 212], [0.000000, 0.000000, 0.000000], 0.488696, 0.180340 
+  104, [539.1856, 212], [327.185626, 107050.433555, 154.332842], 0.459988, 0.180340 
+  109, [694.6923, 207], [0.000000, 0.000000, 0.000000], 0.592899, 0.176070 
+  109, [626.6677, 207], [0.000000, 0.000000, 0.000000], 0.534759, 0.176070 
+  109, [598.5260, 207], [0.000000, 0.000000, 0.000000], 0.510706, 0.176070 
+  109, [571.2500, 207], [0.000000, 0.000000, 0.000000], 0.487393, 0.176070 
+  109, [536.4418, 207], [329.441789, 108531.892404, 159.150623], 0.457643, 0.176070 
+  114, [705.3311, 202], [0.000000, 0.000000, 0.000000], 0.601992, 0.171790 
+  114, [635.5393, 202], [0.000000, 0.000000, 0.000000], 0.542341, 0.171790 
+  114, [600.0181, 202], [0.000000, 0.000000, 0.000000], 0.511981, 0.171790 
+  114, [573.5738, 202], [0.000000, 0.000000, 0.000000], 0.489379, 0.171790 
+  114, [540.0583, 202], [338.058260, 114283.387229, 167.355574], 0.460734, 0.171790 
+  119, [700.2235, 197], [0.000000, 0.000000, 0.000000], 0.597627, 0.167520 
+  119, [630.6537, 197], [0.000000, 0.000000, 0.000000], 0.538166, 0.167520 
+  119, [598.2586, 197], [0.000000, 0.000000, 0.000000], 0.510477, 0.167520 
+  119, [570.8077, 197], [0.000000, 0.000000, 0.000000], 0.487015, 0.167520 
+  119, [535.9562, 197], [338.956195, 114891.302025, 172.058982], 0.457228, 0.167520 
+  124, [701.6633, 192], [0.000000, 0.000000, 0.000000], 0.598857, 0.163250 
+  124, [626.4671, 192], [0.000000, 0.000000, 0.000000], 0.534587, 0.163250 
+  124, [597.2498, 192], [0.000000, 0.000000, 0.000000], 0.509615, 0.163250 
+  124, [569.6321, 192], [0.000000, 0.000000, 0.000000], 0.486010, 0.163250 
+  124, [534.2640, 192], [342.264047, 117144.677857, 178.262524], 0.455781, 0.163250 
+  129, [705.0081, 187], [0.000000, 0.000000, 0.000000], 0.601716, 0.158970 
+  129, [624.4271, 187], [0.000000, 0.000000, 0.000000], 0.532844, 0.158970 
+  129, [596.0534, 187], [0.000000, 0.000000, 0.000000], 0.508593, 0.158970 
+  129, [568.0763, 187], [0.000000, 0.000000, 0.000000], 0.484681, 0.158970 
+  129, [532.2275, 187], [345.227460, 119181.999086, 184.613615], 0.454041, 0.158970 
+  134, [704.8505, 182], [0.000000, 0.000000, 0.000000], 0.601582, 0.154700 
+  134, [623.3761, 182], [0.000000, 0.000000, 0.000000], 0.531945, 0.154700 
+  134, [595.1648, 182], [0.000000, 0.000000, 0.000000], 0.507833, 0.154700 
+  134, [566.9200, 182], [0.000000, 0.000000, 0.000000], 0.483692, 0.154700 
+  134, [530.0338, 182], [348.033777, 121127.509852, 191.227350], 0.452166, 0.154700 
+  139, [693.6783, 177], [0.000000, 0.000000, 0.000000], 0.592033, 0.150430 
+  139, [620.1976, 177], [0.000000, 0.000000, 0.000000], 0.529229, 0.150430 
+  139, [591.5593, 177], [0.000000, 0.000000, 0.000000], 0.504752, 0.150430 
+  139, [562.3866, 177], [0.000000, 0.000000, 0.000000], 0.479818, 0.150430 
+  139, [523.9932, 177], [346.993183, 120404.268743, 196.041346], 0.447003, 0.150430 
+  144, [705.0532, 172], [0.000000, 0.000000, 0.000000], 0.601755, 0.146150 
+  144, [621.0076, 172], [0.000000, 0.000000, 0.000000], 0.529921, 0.146150 
+  144, [592.4058, 172], [0.000000, 0.000000, 0.000000], 0.505475, 0.146150 
+  144, [563.7370, 172], [0.000000, 0.000000, 0.000000], 0.480972, 0.146150 
+  144, [526.0607, 172], [354.060670, 125358.958378, 205.849227], 0.448770, 0.146150 
+  149, [700.8705, 167], [0.000000, 0.000000, 0.000000], 0.598180, 0.141880 
+  149, [620.5195, 167], [0.000000, 0.000000, 0.000000], 0.529504, 0.141880 
+  149, [591.7916, 167], [0.000000, 0.000000, 0.000000], 0.504950, 0.141880 
+  149, [562.0421, 167], [0.000000, 0.000000, 0.000000], 0.479523, 0.141880 
+  149, [522.6198, 167], [355.619750, 126465.406699, 212.945958], 0.445829, 0.141880 
+  154, [702.8539, 162], [0.000000, 0.000000, 0.000000], 0.599875, 0.137610 
+  154, [619.2907, 162], [0.000000, 0.000000, 0.000000], 0.528454, 0.137610 
+  154, [590.2384, 162], [0.000000, 0.000000, 0.000000], 0.503623, 0.137610 
+  154, [560.3649, 162], [0.000000, 0.000000, 0.000000], 0.478090, 0.137610 
+  154, [520.2850, 162], [358.284976, 128368.124177, 221.163566], 0.443833, 0.137610 
+  159, [697.3445, 157], [0.000000, 0.000000, 0.000000], 0.595166, 0.133330 
+  159, [618.3192, 157], [0.000000, 0.000000, 0.000000], 0.527623, 0.133330 
+  159, [588.7160, 157], [0.000000, 0.000000, 0.000000], 0.502321, 0.133330 
+  159, [558.1324, 157], [0.000000, 0.000000, 0.000000], 0.476182, 0.133330 
+  159, [516.1387, 157], [359.138681, 128980.592371, 228.750752], 0.440289, 0.133330 
+  164, [695.8991, 152], [0.000000, 0.000000, 0.000000], 0.593931, 0.129060 
+  164, [617.0566, 152], [0.000000, 0.000000, 0.000000], 0.526544, 0.129060 
+  164, [587.5074, 152], [0.000000, 0.000000, 0.000000], 0.501288, 0.129060 
+  164, [556.5321, 152], [0.000000, 0.000000, 0.000000], 0.474814, 0.129060 
+  164, [513.9557, 152], [361.955703, 131011.930687, 238.128752], 0.438424, 0.129060 
+  169, [693.8224, 147], [0.000000, 0.000000, 0.000000], 0.592156, 0.124790 
+  169, [614.1971, 147], [0.000000, 0.000000, 0.000000], 0.524100, 0.124790 
+  169, [584.2199, 147], [0.000000, 0.000000, 0.000000], 0.498479, 0.124790 
+  169, [552.2051, 147], [0.000000, 0.000000, 0.000000], 0.471115, 0.124790 
+  169, [507.1158, 147], [360.115796, 129683.386384, 244.976732], 0.432578, 0.124790 
+  174, [693.8858, 142], [0.000000, 0.000000, 0.000000], 0.592210, 0.120510 
+  174, [616.9220, 142], [0.000000, 0.000000, 0.000000], 0.526429, 0.120510 
+  174, [586.9863, 142], [0.000000, 0.000000, 0.000000], 0.500843, 0.120510 
+  174, [555.1983, 142], [0.000000, 0.000000, 0.000000], 0.473674, 0.120510 
+  174, [510.7948, 142], [368.794844, 136009.636703, 259.714679], 0.435722, 0.120510 
+  179, [693.5458, 137], [0.000000, 0.000000, 0.000000], 0.591919, 0.116240 
+  179, [615.0740, 137], [0.000000, 0.000000, 0.000000], 0.524850, 0.116240 
+  179, [584.6460, 137], [0.000000, 0.000000, 0.000000], 0.498843, 0.116240 
+  179, [552.0633, 137], [0.000000, 0.000000, 0.000000], 0.470994, 0.116240 
+  179, [505.5114, 137], [368.511378, 135800.635808, 268.986407], 0.431206, 0.116240 
+  184, [688.4227, 132], [0.000000, 0.000000, 0.000000], 0.587541, 0.111970 
+  184, [613.1722, 132], [0.000000, 0.000000, 0.000000], 0.523224, 0.111970 
+  184, [582.0379, 132], [0.000000, 0.000000, 0.000000], 0.496614, 0.111970 
+  184, [547.9328, 132], [0.000000, 0.000000, 0.000000], 0.467464, 0.111970 
+  184, [497.6999, 132], [365.699916, 133736.428589, 277.045391], 0.424530, 0.111970 
+  189, [697.9725, 127], [0.000000, 0.000000, 0.000000], 0.595703, 0.107690 
+  189, [618.5406, 127], [0.000000, 0.000000, 0.000000], 0.527812, 0.107690 
+  189, [587.8686, 127], [0.000000, 0.000000, 0.000000], 0.501597, 0.107690 
+  189, [554.5068, 127], [0.000000, 0.000000, 0.000000], 0.473083, 0.107690 
+  189, [505.5570, 127], [378.556973, 143305.382082, 298.076357], 0.431245, 0.107690 
+  194, [693.9684, 122], [0.000000, 0.000000, 0.000000], 0.592281, 0.103420 
+  194, [617.9985, 122], [0.000000, 0.000000, 0.000000], 0.527349, 0.103420 
+  194, [587.2496, 122], [0.000000, 0.000000, 0.000000], 0.501068, 0.103420 
+  194, [554.0353, 122], [0.000000, 0.000000, 0.000000], 0.472680, 0.103420 
+  194, [505.0625, 122], [383.062533, 146736.904429, 313.985683], 0.430823, 0.103420 
+  199, [685.2024, 117], [0.000000, 0.000000, 0.000000], 0.584788, 0.099145 
+  199, [617.7034, 117], [0.000000, 0.000000, 0.000000], 0.527097, 0.099145 
+  199, [585.3464, 117], [0.000000, 0.000000, 0.000000], 0.499441, 0.099145 
+  199, [548.5568, 117], [0.000000, 0.000000, 0.000000], 0.467997, 0.099145 
+  199, [492.5524, 117], [375.552358, 141039.573639, 320.984921], 0.420130, 0.099145 
+  204, [704.2630, 112], [0.000000, 0.000000, 0.000000], 0.601080, 0.094872 
+  204, [629.3918, 112], [0.000000, 0.000000, 0.000000], 0.537087, 0.094872 
+  204, [598.4909, 112], [0.000000, 0.000000, 0.000000], 0.510676, 0.094872 
+  204, [564.7493, 112], [0.000000, 0.000000, 0.000000], 0.481837, 0.094872 
+  204, [514.2708, 112], [402.270790, 161821.788178, 359.170348], 0.438693, 0.094872 
+  209, [723.4030, 43], [0.000000, 0.000000, 0.000000], 0.617438, 0.035897 
+  209, [635.5829, 43], [0.000000, 0.000000, 0.000000], 0.542379, 0.035897 
+  209, [628.7310, 43], [0.000000, 0.000000, 0.000000], 0.536522, 0.035897 
+  209, [640.6371, 43], [0.000000, 0.000000, 0.000000], 0.546698, 0.035897 
+  209, [682.3217, 43], [639.321728, 408732.272099, 1486.794717], 0.582326, 0.035897 
+  214, [639.2552, 38], [0.000000, 0.000000, 0.000000], 0.545517, 0.031624 
+  214, [559.6119, 38], [0.000000, 0.000000, 0.000000], 0.477446, 0.031624 
+  214, [518.0635, 38], [0.000000, 0.000000, 0.000000], 0.441935, 0.031624 
+  214, [470.6024, 38], [0.000000, 0.000000, 0.000000], 0.401370, 0.031624 
+  214, [365.4806, 38], [327.480585, 107243.533484, 861.791013], 0.311522, 0.031624 
+  219, [637.4040, 33], [0.000000, 0.000000, 0.000000], 0.543935, 0.027350 
+  219, [557.2217, 33], [0.000000, 0.000000, 0.000000], 0.475403, 0.027350 
+  219, [514.3979, 33], [0.000000, 0.000000, 0.000000], 0.438802, 0.027350 
+  219, [465.0087, 33], [0.000000, 0.000000, 0.000000], 0.396589, 0.027350 
+  219, [362.0682, 33], [329.068242, 108285.908188, 997.176492], 0.308605, 0.027350 
+  224, [633.9693, 28], [0.000000, 0.000000, 0.000000], 0.540999, 0.023077 
+  224, [552.5607, 28], [0.000000, 0.000000, 0.000000], 0.471419, 0.023077 
+  224, [508.2845, 28], [0.000000, 0.000000, 0.000000], 0.433576, 0.023077 
+  224, [451.3039, 28], [0.000000, 0.000000, 0.000000], 0.384875, 0.023077 
+  224, [354.2353, 28], [326.235325, 106429.487391, 1165.126161], 0.301911, 0.023077 
+  229, [627.3323, 23], [0.000000, 0.000000, 0.000000], 0.535327, 0.018803 
+  229, [543.7423, 23], [0.000000, 0.000000, 0.000000], 0.463882, 0.018803 
+  229, [495.8877, 23], [0.000000, 0.000000, 0.000000], 0.422981, 0.018803 
+  229, [428.4691, 23], [0.000000, 0.000000, 0.000000], 0.365358, 0.018803 
+  229, [345.5607, 23], [322.560708, 104045.410320, 1402.437861], 0.294496, 0.018803 
+  234, [624.5160, 18], [0.000000, 0.000000, 0.000000], 0.532920, 0.014530 
+  234, [539.6473, 18], [0.000000, 0.000000, 0.000000], 0.460382, 0.014530 
+  234, [488.5041, 18], [0.000000, 0.000000, 0.000000], 0.416670, 0.014530 
+  234, [408.8540, 18], [0.000000, 0.000000, 0.000000], 0.348593, 0.014530 
+  234, [343.1808, 18], [325.180780, 105742.539832, 1806.559890], 0.292462, 0.014530 
+  239, [622.3106, 13], [0.000000, 0.000000, 0.000000], 0.531035, 0.010256 
+  239, [535.2938, 13], [0.000000, 0.000000, 0.000000], 0.456661, 0.010256 
+  239, [483.8378, 13], [0.000000, 0.000000, 0.000000], 0.412682, 0.010256 
+  239, [392.6977, 13], [0.000000, 0.000000, 0.000000], 0.334784, 0.010256 
+  239, [333.5104, 13], [320.510357, 102726.889131, 2465.464287], 0.284197, 0.010256 
+  244, [614.7103, 8], [0.000000, 0.000000, 0.000000], 0.524539, 0.005983 
+  244, [526.9720, 8], [0.000000, 0.000000, 0.000000], 0.449549, 0.005983 
+  244, [482.9756, 8], [0.000000, 0.000000, 0.000000], 0.411945, 0.005983 
+  244, [365.9002, 8], [0.000000, 0.000000, 0.000000], 0.311881, 0.005983 
+  244, [324.1094, 8], [316.109363, 99925.129421, 3951.367038], 0.276162, 0.005983 
+  249, [613.7105, 3], [0.000000, 0.000000, 0.000000], 0.523684, 0.001709 
+  249, [523.2078, 3], [0.000000, 0.000000, 0.000000], 0.446331, 0.001709 
+  249, [458.4564, 3], [0.000000, 0.000000, 0.000000], 0.390988, 0.001709 
+  249, [364.0434, 3], [0.000000, 0.000000, 0.000000], 0.310294, 0.001709 
+  249, [320.6575, 3], [317.657526, 100906.304040, 10588.584211], 0.273212, 0.001709 
+
+ ---- summary of battery # 211 pre= 1 ~ 50 (cycle) -----
+ RMSE_pre = 329.9203 
+ MAPE_pre = 112.2620 
+
+ ---- summary of battery # 250 post= 51 ~ 250 (cycle) -----
+ RMSE_post = 435.0515 
+ MAPE_post = 823.3230 
+
+ Patten changes at 1 cycle to decrease 63 RUL. Bad !!!
+ Patten changes at 2 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 3 cycle to decrease 23 RUL. Bad !!!
+ Patten changes at 4 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 5 cycle to increase % RUL Good !!!
+ Patten changes at 6 cycle to decrease 64 RUL. Bad !!!
+ Patten changes at 7 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 8 cycle to decrease 23 RUL. Bad !!!
+ Patten changes at 9 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 10 cycle to increase % RUL Good !!!
+ Patten changes at 11 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 12 cycle to decrease 20 RUL. Bad !!!
+ Patten changes at 13 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 14 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 15 cycle to increase % RUL Good !!!
+ Patten changes at 16 cycle to decrease 64 RUL. Bad !!!
+ Patten changes at 17 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 18 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 19 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 20 cycle to increase % RUL Good !!!
+ Patten changes at 21 cycle to decrease 73 RUL. Bad !!!
+ Patten changes at 23 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 24 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 25 cycle to increase % RUL Good !!!
+ Patten changes at 26 cycle to decrease 54 RUL. Bad !!!
+ Patten changes at 27 cycle to decrease 46 RUL. Bad !!!
+ Patten changes at 28 cycle to decrease 22 RUL. Bad !!!
+ Patten changes at 29 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 30 cycle to increase % RUL Good !!!
+ Patten changes at 31 cycle to decrease 65 RUL. Bad !!!
+ Patten changes at 32 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 33 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 34 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 35 cycle to increase % RUL Good !!!
+ Patten changes at 36 cycle to decrease 65 RUL. Bad !!!
+ Patten changes at 37 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 38 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 39 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 40 cycle to increase % RUL Good !!!
+ Patten changes at 41 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 42 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 43 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 44 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 45 cycle to increase % RUL Good !!!
+ Patten changes at 46 cycle to decrease 68 RUL. Bad !!!
+ Patten changes at 47 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 48 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 49 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 50 cycle to increase % RUL Good !!!
+ Patten changes at 51 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 52 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 53 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 54 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 55 cycle to increase % RUL Good !!!
+ Patten changes at 56 cycle to decrease 63 RUL. Bad !!!
+ Patten changes at 57 cycle to decrease 42 RUL. Bad !!!
+ Patten changes at 58 cycle to decrease 24 RUL. Bad !!!
+ Patten changes at 59 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 60 cycle to increase % RUL Good !!!
+ Patten changes at 61 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 62 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 63 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 64 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 65 cycle to increase % RUL Good !!!
+ Patten changes at 66 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 67 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 68 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 69 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 70 cycle to increase % RUL Good !!!
+ Patten changes at 71 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 72 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 73 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 74 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 75 cycle to increase % RUL Good !!!
+ Patten changes at 76 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 77 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 78 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 79 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 80 cycle to increase % RUL Good !!!
+ Patten changes at 81 cycle to decrease 68 RUL. Bad !!!
+ Patten changes at 82 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 83 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 84 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 85 cycle to increase % RUL Good !!!
+ Patten changes at 86 cycle to decrease 66 RUL. Bad !!!
+ Patten changes at 87 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 88 cycle to decrease 25 RUL. Bad !!!
+ Patten changes at 89 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 90 cycle to increase % RUL Good !!!
+ Patten changes at 91 cycle to decrease 65 RUL. Bad !!!
+ Patten changes at 92 cycle to decrease 34 RUL. Bad !!!
+ Patten changes at 93 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 94 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 95 cycle to increase % RUL Good !!!
+ Patten changes at 96 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 97 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 98 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 99 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 100 cycle to increase % RUL Good !!!
+ Patten changes at 101 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 102 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 103 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 104 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 105 cycle to increase % RUL Good !!!
+ Patten changes at 106 cycle to decrease 68 RUL. Bad !!!
+ Patten changes at 107 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 108 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 109 cycle to decrease 34 RUL. Bad !!!
+ Patten changes at 110 cycle to increase % RUL Good !!!
+ Patten changes at 111 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 112 cycle to decrease 35 RUL. Bad !!!
+ Patten changes at 113 cycle to decrease 26 RUL. Bad !!!
+ Patten changes at 114 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 115 cycle to increase % RUL Good !!!
+ Patten changes at 116 cycle to decrease 69 RUL. Bad !!!
+ Patten changes at 117 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 118 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 119 cycle to decrease 34 RUL. Bad !!!
+ Patten changes at 120 cycle to increase % RUL Good !!!
+ Patten changes at 121 cycle to decrease 75 RUL. Bad !!!
+ Patten changes at 122 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 123 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 124 cycle to decrease 35 RUL. Bad !!!
+ Patten changes at 125 cycle to increase % RUL Good !!!
+ Patten changes at 126 cycle to decrease 80 RUL. Bad !!!
+ Patten changes at 127 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 128 cycle to decrease 27 RUL. Bad !!!
+ Patten changes at 129 cycle to decrease 35 RUL. Bad !!!
+ Patten changes at 130 cycle to increase % RUL Good !!!
+ Patten changes at 131 cycle to decrease 81 RUL. Bad !!!
+ Patten changes at 132 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 133 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 134 cycle to decrease 36 RUL. Bad !!!
+ Patten changes at 135 cycle to increase % RUL Good !!!
+ Patten changes at 136 cycle to decrease 73 RUL. Bad !!!
+ Patten changes at 137 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 138 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 139 cycle to decrease 38 RUL. Bad !!!
+ Patten changes at 140 cycle to increase % RUL Good !!!
+ Patten changes at 141 cycle to decrease 84 RUL. Bad !!!
+ Patten changes at 142 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 143 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 144 cycle to decrease 37 RUL. Bad !!!
+ Patten changes at 145 cycle to increase % RUL Good !!!
+ Patten changes at 146 cycle to decrease 80 RUL. Bad !!!
+ Patten changes at 147 cycle to decrease 28 RUL. Bad !!!
+ Patten changes at 148 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 149 cycle to decrease 39 RUL. Bad !!!
+ Patten changes at 150 cycle to increase % RUL Good !!!
+ Patten changes at 151 cycle to decrease 83 RUL. Bad !!!
+ Patten changes at 152 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 153 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 154 cycle to decrease 40 RUL. Bad !!!
+ Patten changes at 155 cycle to increase % RUL Good !!!
+ Patten changes at 156 cycle to decrease 79 RUL. Bad !!!
+ Patten changes at 157 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 158 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 159 cycle to decrease 41 RUL. Bad !!!
+ Patten changes at 160 cycle to increase % RUL Good !!!
+ Patten changes at 161 cycle to decrease 78 RUL. Bad !!!
+ Patten changes at 162 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 163 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 164 cycle to decrease 42 RUL. Bad !!!
+ Patten changes at 165 cycle to increase % RUL Good !!!
+ Patten changes at 166 cycle to decrease 79 RUL. Bad !!!
+ Patten changes at 167 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 168 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 169 cycle to decrease 45 RUL. Bad !!!
+ Patten changes at 170 cycle to increase % RUL Good !!!
+ Patten changes at 171 cycle to decrease 76 RUL. Bad !!!
+ Patten changes at 172 cycle to decrease 29 RUL. Bad !!!
+ Patten changes at 173 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 174 cycle to decrease 44 RUL. Bad !!!
+ Patten changes at 175 cycle to increase % RUL Good !!!
+ Patten changes at 176 cycle to decrease 78 RUL. Bad !!!
+ Patten changes at 177 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 178 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 179 cycle to decrease 46 RUL. Bad !!!
+ Patten changes at 180 cycle to increase % RUL Good !!!
+ Patten changes at 181 cycle to decrease 75 RUL. Bad !!!
+ Patten changes at 182 cycle to decrease 31 RUL. Bad !!!
+ Patten changes at 183 cycle to decrease 34 RUL. Bad !!!
+ Patten changes at 184 cycle to decrease 50 RUL. Bad !!!
+ Patten changes at 185 cycle to increase % RUL Good !!!
+ Patten changes at 186 cycle to decrease 79 RUL. Bad !!!
+ Patten changes at 187 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 188 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 189 cycle to decrease 48 RUL. Bad !!!
+ Patten changes at 190 cycle to increase % RUL Good !!!
+ Patten changes at 191 cycle to decrease 75 RUL. Bad !!!
+ Patten changes at 192 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 193 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 194 cycle to decrease 48 RUL. Bad !!!
+ Patten changes at 195 cycle to increase % RUL Good !!!
+ Patten changes at 196 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 197 cycle to decrease 32 RUL. Bad !!!
+ Patten changes at 198 cycle to decrease 36 RUL. Bad !!!
+ Patten changes at 199 cycle to decrease 56 RUL. Bad !!!
+ Patten changes at 200 cycle to increase % RUL Good !!!
+ Patten changes at 201 cycle to decrease 74 RUL. Bad !!!
+ Patten changes at 202 cycle to decrease 30 RUL. Bad !!!
+ Patten changes at 203 cycle to decrease 33 RUL. Bad !!!
+ Patten changes at 204 cycle to decrease 50 RUL. Bad !!!
+ Patten changes at 205 cycle to increase % RUL Good !!!
+ Patten changes at 206 cycle to decrease 87 RUL. Bad !!!
+ Patten changes at 209 cycle to increase % RUL Good !!!
+ Patten changes at 210 cycle to decrease 43 RUL. Bad !!!
+ Patten changes at 211 cycle to decrease 79 RUL. Bad !!!
+ Patten changes at 212 cycle to decrease 41 RUL. Bad !!!
+ Patten changes at 213 cycle to decrease 47 RUL. Bad !!!
+ Patten changes at 214 cycle to decrease 105 RUL. Bad !!!
+ Patten changes at 215 cycle to increase % RUL Good !!!
+ Patten changes at 216 cycle to decrease 80 RUL. Bad !!!
+ Patten changes at 217 cycle to decrease 42 RUL. Bad !!!
+ Patten changes at 218 cycle to decrease 49 RUL. Bad !!!
+ Patten changes at 219 cycle to decrease 102 RUL. Bad !!!
+ Patten changes at 220 cycle to increase % RUL Good !!!
+ Patten changes at 221 cycle to decrease 81 RUL. Bad !!!
+ Patten changes at 222 cycle to decrease 44 RUL. Bad !!!
+ Patten changes at 223 cycle to decrease 56 RUL. Bad !!!
+ Patten changes at 224 cycle to decrease 97 RUL. Bad !!!
+ Patten changes at 225 cycle to increase % RUL Good !!!
+ Patten changes at 226 cycle to decrease 83 RUL. Bad !!!
+ Patten changes at 227 cycle to decrease 47 RUL. Bad !!!
+ Patten changes at 228 cycle to decrease 67 RUL. Bad !!!
+ Patten changes at 229 cycle to decrease 82 RUL. Bad !!!
+ Patten changes at 230 cycle to increase % RUL Good !!!
+ Patten changes at 231 cycle to decrease 84 RUL. Bad !!!
+ Patten changes at 232 cycle to decrease 51 RUL. Bad !!!
+ Patten changes at 233 cycle to decrease 79 RUL. Bad !!!
+ Patten changes at 234 cycle to decrease 65 RUL. Bad !!!
+ Patten changes at 235 cycle to increase % RUL Good !!!
+ Patten changes at 236 cycle to decrease 87 RUL. Bad !!!
+ Patten changes at 237 cycle to decrease 51 RUL. Bad !!!
+ Patten changes at 238 cycle to decrease 91 RUL. Bad !!!
+ Patten changes at 239 cycle to decrease 59 RUL. Bad !!!
+ Patten changes at 240 cycle to increase % RUL Good !!!
+ Patten changes at 241 cycle to decrease 87 RUL. Bad !!!
+ Patten changes at 242 cycle to decrease 43 RUL. Bad !!!
+ Patten changes at 243 cycle to decrease 117 RUL. Bad !!!
+ Patten changes at 244 cycle to decrease 41 RUL. Bad !!!
+ Patten changes at 245 cycle to increase % RUL Good !!!
+ Patten changes at 246 cycle to decrease 90 RUL. Bad !!!
+ Patten changes at 247 cycle to decrease 64 RUL. Bad !!!
+ Patten changes at 248 cycle to decrease 94 RUL. Bad !!!
+ Patten changes at 249 cycle to decrease 43 RUL. Bad !!!
+
+ ---- summary of battery # 211 -----
+ RMSE = 416.1554 
+ MAPE = 681.1108 
+
+ Congraturation, It works !!! 
